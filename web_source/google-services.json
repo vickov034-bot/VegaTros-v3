@@ -1,0 +1,30 @@
+ {
+  "project_info": {
+    "project_number": "305390664794",
+    "firebase_url": "https://vegatros-2d33e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vegatros-2d33e",
+    "storage_bucket": "vegatros-2d33e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305390664794:android:977d948175b5acba4eec63",
+        "android_client_info": {
+          "package_name": "com.vikk.vegatros"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmyChOFhM5HsF4Mr2tmcBcF28lbHFqeAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
