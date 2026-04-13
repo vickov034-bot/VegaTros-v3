@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050505"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="VEGATROS V3" android:textColor="#00FF41" android:textSize="32sp" android:textStyle="bold"/>
+
+    <EditText android:id="@+id/et_email" android:layout_width="match_parent" android:layout_height="55dp"
+        android:hint="ADMIN_EMAIL" android:textColor="#00FF41" android:textColorHint="#222"
+        android:backgroundTint="#00FF41" android:inputType="textEmailAddress" android:layout_marginTop="40dp"/>
+
+    <EditText android:id="@+id/et_password" android:layout_width="match_parent" android:layout_height="55dp"
+        android:hint="ACCESS_KEY" android:textColor="#00FF41" android:textColorHint="#222"
+        android:backgroundTint="#00FF41" android:inputType="textPassword" android:layout_marginTop="10dp"/>
+
+    <Button android:id="@+id/btn_login" android:layout_width="match_parent" android:layout_height="60dp"
+        android:text="INITIATE LOGIN" android:backgroundTint="#00FF41" android:textColor="#000" android:layout_marginTop="30dp"/>
+</LinearLayout>
