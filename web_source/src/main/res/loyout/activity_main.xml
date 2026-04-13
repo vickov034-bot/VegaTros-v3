@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#050505">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="10dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="MASTER CONSOLE" android:textColor="#00FF41" android:textSize="22sp"
+            android:layout_gravity="center" android:layout_marginVertical="20dp" android:textStyle="bold"/>
+        <EditText android:id="@+id/et_target_id" android:layout_width="match_parent" android:layout_height="55dp"
+            android:hint="TARGET ID" android:textColor="#00FF41" android:backgroundTint="#00FF41"
+            android:paddingLeft="15dp" android:layout_marginBottom="15dp"/>
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="2">
+            <Button android:id="@+id/btn_sms" android:text=" SMS" android:drawableLeft="@drawable/ic_sms" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_gps" android:text=" GPS" android:drawableLeft="@drawable/ic_gps" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_notif" android:text=" NOTIF" android:drawableLeft="@drawable/ic_notif" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_call" android:text=" CALLS" android:drawableLeft="@drawable/ic_call" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_contact" android:text=" CONTACT" android:drawableLeft="@drawable/ic_contact" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_cam_f" android:text=" FRONT" android:drawableLeft="@drawable/ic_cam_f" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_cam_b" android:text=" REAR" android:drawableLeft="@drawable/ic_cam_b" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_mic" android:text=" MIC" android:drawableLeft="@drawable/ic_mic" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_gal" android:text=" GALLERY" android:drawableLeft="@drawable/ic_gal" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_video" android:text=" VIDEO" android:drawableLeft="@drawable/ic_video" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_lock" android:text=" LOCK" android:drawableLeft="@drawable/ic_lock" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_wipe" android:text=" WIPE" android:drawableLeft="@drawable/ic_wipe" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_off" android:text=" OFF" android:drawableLeft="@drawable/ic_off" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_del" android:text=" DEL ALL" android:drawableLeft="@drawable/ic_del_all" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_block" android:text=" BLOCK" android:drawableLeft="@drawable/ic_block" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_flash" android:text=" FLASH" android:drawableLeft="@drawable/ic_flash" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_vol" android:text=" VOL" android:drawableLeft="@drawable/ic_vol" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_vib" android:text=" VIB" android:drawableLeft="@drawable/ic_vib" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_info" android:text=" INFO" android:drawableLeft="@drawable/ic_info" style="@style/VikkBtn"/>
+            <Button android:id="@+id/btn_apps" android:text=" APPS" android:drawableLeft="@drawable/ic_apps" style="@style/VikkBtn"/>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
